@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Who da best</title>
+    <meta charset="utf-8">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <header>
+    </header>
+    <main>
+
+       <!-- Välj Namn -->
+        <section class="characterNameForm col-xs-12 col-sm-12 col-md-8 col-lg-8">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <div class="col-sm-8 col-sm-offset-2">
+                <h2>Choose your name and class:</h2>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-2 control-label" for="character_name">Choose your name</label>
+              <div class="col-sm-10">
+                <input type="text" id="character_name" class="form-control" placeholder="Enter your name here" required>
+                <label class="col-sm-2 control-label" for="character_class">Pick your class
+                </label>
+                  <div class="col-sm-10">
+                    <label>Acrobat
+                      <input type="radio" name="character" value="Acrobat" id="character_class">
+                    </label>
+                    <label>Thief
+                      <input type="radio" name="character" value="Thief" id="character_class">
+                    </label>
+                    <label>Warrior    
+                      <input type="radio" name="character" value="Warrior" id="character_class">
+                    </label>
+                    <label>Cleric   
+                      <input type="radio" name="character" value="Cleric" id="character_class">
+                    </label>
+                  </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-success btn-lg startGame">Confirm!</button>
+              </div>
+            </div>
+          </form>
+        </section>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
